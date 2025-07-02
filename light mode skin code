@@ -231,6 +231,12 @@ dl.index dd,
   background: #f9f7f7;
 }
 
+#modal {
+ background: #f9f7f7;
+  border: 5px solid;
+  border-image: linear-gradient(45deg, rgba(191, 36, 44, 1) 0%, rgba(224, 141, 97, 1) 14%, rgba(224, 196, 97, 1) 28%, rgba(127, 207, 93, 1) 42%, rgba(93, 196, 207, 1) 56%, rgba(93, 112, 207, 1) 70%, rgba(146, 93, 207, 1) 84%, rgba(227, 100, 208, 1) 100%) 1;
+}
+
 a.tag,
 a.tag:visited,
 a.tag:link {
