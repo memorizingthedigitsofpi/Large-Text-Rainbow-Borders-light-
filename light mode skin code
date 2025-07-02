@@ -1,0 +1,265 @@
+
+/* THIS SECTION CHANGES THE FONT ON THE SITE. IF YOU WANT THE DEFAULT, DELETE THIS. IF YOU WANT TO SET A DIFFERENT FONT, YOU CAN DO SO HERE. IF THE FONT NAME HAS MORE THAN ONE WORD, PUT IT IN QUOTATIONS. FOR EXAMPLE, "Century Gothic" */
+
+body,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading,
+blockquote,
+pre {
+  font-family: Arial, Verdana, Tahoma, sans-serif;
+}
+
+/* THIS SETS THE FONT SIZE IN 1) THE TEXT OF FICS 2) THE TEXT OF FIC BLURBS 3) THE TEXT OF COMMENTS. YOU CAN RESET TO DEFAULT BY DELETING THIS. YOU CAN INCREASE OR DECREASE THE FONT SIZE BY CHANGING THE PERCENTAGE. DEFAULT IS 100% */
+
+#workskin p,
+li.blurb,
+li.comment {
+  font-size: 120%;
+}
+
+/* THIS REMOVES THE SEARCH BOX AND BUTTON FROM THE HEADER MENU. TO GET IT BACK JUST DELETE THIS PART */
+
+#header #search .button,
+#header #search .submit,
+#header #search .text {
+  display: none;
+}
+
+/* THIS REMOVES YOUR USER ICON FROM THE TOP OF THE PAGE. TO GET IT BACK JUST DELETE THIS PART */
+
+#greeting img.icon {
+  display: none;
+}
+
+/* THIS SETS THE PAGE BACKGROUND COLOUR. YOU CAN CHANGE THIS TO ANYTHING YOU WANT BY CHANGING THE HEX COLOUR CODE */
+
+#outer {
+  background: #f9f7f7;
+}
+
+/* THIS REMOVES THE AO3 LOGO AND REPLACES IT WITH THE RAINBOW ONE I MADE */
+
+#header .logo,
+#header .heading sup {
+  display: none;
+}
+
+#header h1.heading span {
+  display: none;
+}
+
+#header h1.heading a::before {
+  display: inline-block;
+  content: " ";
+  width: 300px;
+  height: 40px;
+  background-image: url("https://64.media.tumblr.com/c964465ed2fd84bb1fe68aef22d32da1/b0e5e6bbcadb1538-aa/s1280x1920/c220b5ecef79adca3ed6fea188fdd58811a405a6.png");
+  background-size: contain;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+}
+
+/*  I'M NOT EXPLAINING THE REST OF THE CODE BECAUSE IT'S JUST THE AESTHETIC OVERALL, BUT YOU CAN FIND DETAILS IN MY RUSTIC HOSPITALITY SKIN WHICH I COMMENTED FULLY */
+
+#header .primary,
+#footer,
+#header h2 {
+  background: #f9f7f7 !important;
+  color: #2a2a2a;
+  box-shadow: none;
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(45deg, rgba(191, 36, 44, 1) 0%, rgba(224, 141, 97, 1) 14%, rgba(224, 196, 97, 1) 28%, rgba(127, 207, 93, 1) 42%, rgba(93, 196, 207, 1) 56%, rgba(93, 112, 207, 1) 70%, rgba(146, 93, 207, 1) 84%, rgba(227, 100, 208, 1) 100%) 1;
+}
+
+#greeting .menu {
+  width: 12em !important;
+}
+
+#header .menu {
+  width: 20em;
+}
+
+#header .menu {
+  background: #f9f7f7;
+  border: 2px solid;
+  color: #000 !important;
+  box-shadow: none;
+  border-image: linear-gradient(45deg, rgba(191, 36, 44, 1) 0%, rgba(224, 141, 97, 1) 14%, rgba(224, 196, 97, 1) 28%, rgba(127, 207, 93, 1) 42%, rgba(93, 196, 207, 1) 56%, rgba(93, 112, 207, 1) 70%, rgba(146, 93, 207, 1) 84%, rgba(227, 100, 208, 1) 100%) 1;
+}
+
+#header a.dropdown-toggle {
+  color: #000;
+}
+
+#greeting .user > li:nth-of-type(3) a {
+  color: #BF242C;
+}
+
+#header .menu li a {
+  color: #000 !important;
+  border: none !important;
+  font-weight: normal;
+}
+
+#header .menu li {
+  border-bottom: none;
+}
+
+#header .menu li:hover {
+  background: #edecec;
+}
+
+.splash .module h3,
+.home .header h2 {
+  border-bottom: 3px solid;
+  border-image: linear-gradient(45deg, rgba(191, 36, 44, 1) 0%, rgba(224, 141, 97, 1) 14%, rgba(224, 196, 97, 1) 28%, rgba(127, 207, 93, 1) 42%, rgba(93, 196, 207, 1) 56%, rgba(93, 112, 207, 1) 70%, rgba(146, 93, 207, 1) 84%, rgba(227, 100, 208, 1) 100%) 1;
+}
+
+.resp-sharing-button--twitter,
+.resp-sharing-button--tumblr {
+  background: #d1cfcf !important;
+}
+
+#footer .heading,
+#footer li,
+#footer li a {
+  color: #2a2a2a;
+}
+
+.media-index .listbox,
+.listbox,
+li.blurb,
+fieldset,
+form.verbose legend,
+.verbose form legend,
+dl.meta,
+form.single fieldset,
+form dl,
+.dynamic form,
+li.comment {
+  background: #f9f7f7;
+  box-shadow: none;
+  border: 3px solid;
+  border-image: linear-gradient(45deg, rgba(191, 36, 44, 1) 0%, rgba(224, 141, 97, 1) 14%, rgba(224, 196, 97, 1) 28%, rgba(127, 207, 93, 1) 42%, rgba(93, 196, 207, 1) 56%, rgba(93, 112, 207, 1) 70%, rgba(146, 93, 207, 1) 84%, rgba(227, 100, 208, 1) 100%) 1;
+}
+
+.wrapper {
+  box-shadow: none;
+}
+
+.listbox .index {
+  background: #f9f7f7;
+  box-shadow: none;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash {
+  border: 2px solid;
+  background: #edecec;
+  box-shadow: none;
+  border-image: linear-gradient(45deg, rgba(191, 36, 44, 1) 0%, rgba(224, 141, 97, 1) 14%, rgba(224, 196, 97, 1) 28%, rgba(127, 207, 93, 1) 42%, rgba(93, 196, 207, 1) 56%, rgba(93, 112, 207, 1) 70%, rgba(146, 93, 207, 1) 84%, rgba(227, 100, 208, 1) 100%) 1;
+}
+
+#user-works.work.listbox.group,
+#user-series.series.listbox.group,
+#user-bookmarks.bookmark.listbox.group,
+.filters dl,
+#bookmark-form.post.bookmark form dl,
+#main.skins-edit.region form dl,
+fieldset.work.meta dl,
+fieldset.preface dl,
+fieldset#associations dl,
+fieldset.privacy dl {
+  border: none !important;
+}
+
+#dashboard.own {
+  border-top: 8px solid;
+  border-bottom: 8px solid;
+  border-image: linear-gradient(90deg, rgba(191, 36, 44, 1) 0%, rgba(224, 141, 97, 1) 14%, rgba(224, 196, 97, 1) 28%, rgba(127, 207, 93, 1) 42%, rgba(93, 196, 207, 1) 56%, rgba(93, 112, 207, 1) 70%, rgba(146, 93, 207, 1) 84%, rgba(227, 100, 208, 1) 100%) 1;
+}
+
+#dashboard .current {
+  background: #edecec;
+  border: 1px solid;
+  border-image: linear-gradient(45deg, rgba(191, 36, 44, 1) 0%, rgba(224, 141, 97, 1) 14%, rgba(224, 196, 97, 1) 28%, rgba(127, 207, 93, 1) 42%, rgba(93, 196, 207, 1) 56%, rgba(93, 112, 207, 1) 70%, rgba(146, 93, 207, 1) 84%, rgba(227, 100, 208, 1) 100%) 1;
+}
+
+#dashboard a:hover {
+  background: #edecec;
+}
+
+.draft {
+  border: 3px solid;
+  border-image: linear-gradient(45deg, rgba(191, 36, 44, 1) 0%, rgba(224, 141, 97, 1) 14%, rgba(224, 196, 97, 1) 28%, rgba(127, 207, 93, 1) 42%, rgba(93, 196, 207, 1) 56%, rgba(93, 112, 207, 1) 70%, rgba(146, 93, 207, 1) 84%, rgba(227, 100, 208, 1) 100%) 1;
+}
+
+.comment div.icon {
+  border-bottom: 5px solid;
+  border-image: linear-gradient(45deg, rgba(191, 36, 44, 1) 0%, rgba(224, 141, 97, 1) 14%, rgba(224, 196, 97, 1) 28%, rgba(127, 207, 93, 1) 42%, rgba(93, 196, 207, 1) 56%, rgba(93, 112, 207, 1) 70%, rgba(146, 93, 207, 1) 84%, rgba(227, 100, 208, 1) 100%) 1;
+}
+
+.reading h4.viewed {
+  background: #edecec;
+}
+
+dl.index dd,
+.preface h3 {
+  background: #f9f7f7;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(45deg, rgba(191, 36, 44, 1) 0%, rgba(224, 141, 97, 1) 14%, rgba(224, 196, 97, 1) 28%, rgba(127, 207, 93, 1) 42%, rgba(93, 196, 207, 1) 56%, rgba(93, 112, 207, 1) 70%, rgba(146, 93, 207, 1) 84%, rgba(227, 100, 208, 1) 100%) 1;
+}
+
+.child {
+  background: #f9f7f7;
+}
+
+a.tag,
+a.tag:visited,
+a.tag:link {
+  display: inline-block;
+  padding: 2px 5px;
+  margin: 2px 0px;
+  border-radius: 5px;
+}
+
+.commas li:after {
+  content: "";
+}
+
+.warnings .tag {
+  background: rgba(191, 36, 44, .3);
+  border: 1px solid #BF242C;
+}
+
+.relationships .tag {
+  background: rgba(224, 196, 97, .4);
+  border: 1px solid #E0C461;
+}
+
+.characters .tag {
+  background: rgba(93, 196, 207, .3);
+  border: 1px solid #5DC4CF;
+}
+
+.freeforms .tag {
+  background: rgba(146, 93, 207, .3);
+  border: 1px solid #925DCF;
+}
